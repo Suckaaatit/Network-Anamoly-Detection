@@ -27,7 +27,7 @@ We will create an autoencoder model in which we only show the model non-fraud ca
 
 Create a network with one input layer and one output layer having identical dimentions ie. the shape of non-fraud cases. We will use keras package to craete our model.
 
-![AutoEncoder](/github.com/AkhilSinghRana/Network-Anomaly-Detection/blob/master/extra/autoencoder-net-arch.png) 
+![AutoEncoder](extra/autoencoder-net-arch.png) 
 
 The beauty of this approach is that we do not need too many samples of data for learning the good representations. We will use only 8000 rows of normal cases to train the autoencoder. Additionally, We do not need to run this model for a large number of epochs, running it for 10 epochs was sufficient.
 
@@ -116,7 +116,7 @@ Some highlights from the notebook and how data exploration can benefit you in mo
 
 |Request Packet sent according to classes | Correlation matrix|
 |----------------|------------|
-|![TSNE](extra/packetSent.png) | ![Corr_matrix](extra/Corr_matrix.png)|
+|![TSNE](packetSent.png) | ![Corr_matrix](Corr_matrix.png)|
 
 
 
@@ -163,7 +163,7 @@ Every dot in the following represents a request. Normal transactions are represe
 
 |TSNE on Normal scaled data vs | TSNE on embedded Latent representation|
 |----------------|------------|
-|![TSNE](extra/TSNE-1.png) | ![TSNE-1](extra/TSNE-embeddings.png)|
+|![TSNE](TSNE-1.png) | ![TSNE-1](TSNE-embeddings.png)|
 
 
 ## Future Work
