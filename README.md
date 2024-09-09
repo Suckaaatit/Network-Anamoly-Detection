@@ -10,7 +10,6 @@ This project aims to provide a setup for anomaly detection in Networking, specif
   - [Introduction:](#Introduction)
   - [Dependencies:](#dependencies)
   - [Setup Instructions](#setup-instructions)
-  - [Train Dataset](#Train-Dataset:)
   - [Results](#results)
   - [Visualizing Data with TSNE:](#Visualizing-Data-Relationship-with-TSNE)
   - [Future Work](#future-work)
@@ -27,7 +26,7 @@ We will create an autoencoder model in which we only show the model non-fraud ca
 
 Create a network with one input layer and one output layer having identical dimentions ie. the shape of non-fraud cases. We will use keras package to craete our model.
 
-![AutoEncoder](extra/autoencoder-net-arch.png) 
+![AutoEncoder](autoencoder-net-arch.png) 
 
 The beauty of this approach is that we do not need too many samples of data for learning the good representations. We will use only 8000 rows of normal cases to train the autoencoder. Additionally, We do not need to run this model for a large number of epochs, running it for 10 epochs was sufficient.
 
@@ -121,9 +120,7 @@ Some highlights from the notebook and how data exploration can benefit you in mo
 
 
 
-## Train Dataset:
 
-Instructions for training on your own Dataset is shown in the notebook below. 
 
 Jupyter Notebook:
 
@@ -166,10 +163,3 @@ Every dot in the following represents a request. Normal transactions are represe
 |![TSNE](TSNE-1.png) | ![TSNE-1](TSNE-embeddings.png)|
 
 
-## Future Work
-
-- Adding and training more models
-
-- further classifying different kinds of DDoS attacks!
-
-- Creating a semi-supervised loop to update models online while new data is being gathered.
