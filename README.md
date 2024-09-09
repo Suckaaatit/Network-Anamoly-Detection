@@ -79,7 +79,7 @@ In this project we are going to test the following Anomaly Detection Techniques 
 
 ## Results
 
-The below result was acheived with AutoEncoder method ![AutoEncoderResults](extra/autoencoder-results.png) 
+The below result was acheived with AutoEncoder method ![AutoEncoderResults](autoencoder-results.png) 
 
 
 
