@@ -27,7 +27,7 @@ We will create an autoencoder model in which we only show the model non-fraud ca
 
 Create a network with one input layer and one output layer having identical dimentions ie. the shape of non-fraud cases. We will use keras package to craete our model.
 
-![AutoEncoder](extra/autoencoder-net-arch.png) 
+![AutoEncoder](/github.com/AkhilSinghRana/Network-Anomaly-Detection/blob/master/extra/autoencoder-net-arch.png) 
 
 The beauty of this approach is that we do not need too many samples of data for learning the good representations. We will use only 8000 rows of normal cases to train the autoencoder. Additionally, We do not need to run this model for a large number of epochs, running it for 10 epochs was sufficient.
 
@@ -91,7 +91,6 @@ To reproduce the results from this repository, it is recommended to use virtual 
 Follow these simple steps to setup the dependencies:
 
 ```shell
-git clone https://github.com/AkhilSinghRana/Network-Anomaly-Detection.git
 
 cd Network-Anomaly-Detection/ 
 
