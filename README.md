@@ -12,7 +12,10 @@ This project aims to provide a setup for anomaly detection in Networking, specif
   - [Setup Instructions](#setup-instructions)
   - [Results](#results)
   - [Visualizing Data with TSNE:](#Visualizing-Data-Relationship-with-TSNE)
-  - [Future Work](#future-work)
+
+ - [System Architecture]
+ - ![image](https://github.com/user-attachments/assets/c472a438-7836-4c34-9114-30bf209d03d2)
+
 
 
 ## Introduction
