@@ -42,31 +42,6 @@ Now, we can just train a simple linear classifier on the dataset. Or we can choo
 
 ## Traditional Machine Learning-Based Approaches
 
-Below is a brief overview of popular machine learning-based techniques for anomaly detection.
-
-<b> a.Density-Based Anomaly Detection </b>
-Density-based anomaly detection is based on the k-nearest neighbors algorithm.
-
-Assumption: Normal data points occur around a dense neighborhood and abnormalities are far away.
-
-The nearest set of data points are evaluated using a score, which could be Eucledian distance or a similar measure dependent on the type of the data (categorical or numerical). They could be broadly classified into two algorithms:
-
-K-nearest neighbor: k-NN is a simple, non-parametric lazy learning technique used to classify data based on similarities in distance metrics such as Eucledian, Manhattan, Minkowski, or Hamming distance.
-
-Relative density of data: This is better known as local outlier factor (LOF). This concept is based on a distance metric called reachability distance.
-
-<b> b.Clustering-Based Anomaly Detection </b>
-Clustering is one of the most popular concepts in the domain of unsupervised learning.
-
-Assumption: Data points that are similar tend to belong to similar groups or clusters, as determined by their distance from local centroids.
-
-K-means is a widely used clustering algorithm. It creates 'k' similar clusters of data points. Data instances that fall outside of these groups could potentially be marked as anomalies.
-
-<b>c.Support Vector Machine-Based Anomaly Detection </b>
-A support vector machine is another effective technique for detecting anomalies.
-A SVM is typically associated with supervised learning, but there are extensions (OneClassCVM, for instance) that can be used to identify anomalies as an unsupervised problems (in which training data are not labeled).
-The algorithm learns a soft boundary in order to cluster the normal data instances using the training set, and then, using the testing instance, it tunes itself to identify the abnormalities that fall outside the learned region.
-
 In this project we are going to test the following Anomaly Detection Techniques namely
 
 - Isolation Forest Anomaly Detection Algorithm
